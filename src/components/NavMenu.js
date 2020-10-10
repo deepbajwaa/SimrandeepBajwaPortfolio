@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Menu } from 'antd';
+import { Link } from 'react-router-dom';
 
 import {
     HomeOutlined,
@@ -25,11 +26,9 @@ class NavMenu extends Component {
             onClick={this.handleClick}
             mode="inline"
             >
-              <ul>
-                <li></li>
-              </ul>
               <Menu.Item icon={<HomeOutlined />}>
                 Home
+                <Link to="/SimrandeepBajwaPortfolio"></Link>
               </Menu.Item>
               <Menu.Item icon={<QuestionCircleOutlined />}>
                 About
@@ -38,7 +37,10 @@ class NavMenu extends Component {
                 Resume
               </Menu.Item>
               <SubMenu icon={<DesktopOutlined />} title="Work-Terms">
-                  <Menu.Item icon={<AuditOutlined />}>CaseWare</Menu.Item>
+                  <Menu.Item icon={<AuditOutlined />}>
+                    CaseWare
+                    <Link to="/SimrandeepBajwaPortfolio/Caseware"></Link>
+                  </Menu.Item>
               </SubMenu>
               <Menu.Item icon={<CodeOutlined />}>
                 Projects
@@ -47,9 +49,15 @@ class NavMenu extends Component {
                 Awards
               </Menu.Item>
               <SubMenu icon={<ShareAltOutlined />} title="Other Links">
-                  <Menu.Item icon={<MailOutlined />}>Email</Menu.Item>
-                  <Menu.Item icon={<GithubOutlined />}>GitHub</Menu.Item>
-                  <Menu.Item icon={<LinkedinOutlined />}>Linkedin</Menu.Item>
+                  <Menu.Item icon={<MailOutlined />}>
+                    <a href = "mailto: sbajwa05@uoguelph.ca">Email</a>
+                  </Menu.Item>
+                  <Menu.Item icon={<GithubOutlined />}>
+                    <a href="https://github.com/deepbajwaa" target="_blank" rel="noopener noreferrer">GitHub</a>
+                  </Menu.Item>
+                  <Menu.Item icon={<LinkedinOutlined />}>
+                    <a href="https://www.linkedin.com/in/simrandeepbajwa/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                  </Menu.Item>
               </SubMenu>
             </Menu>
         );
