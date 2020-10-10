@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import SiteMenu from './components/SiteMenu'
+import NavMenu from './components/NavMenu';
+import TextCard from './components/TextCard';
 import './App.css';
 
 import { Layout } from 'antd';
@@ -27,7 +28,7 @@ class App extends Component {
         <Layout style={{minHeight:"100vh"}}>
           <Sider trigger={null} collapsible collapsed={this.state.collapsed}>
             <div className="logo" />
-            <SiteMenu/>
+            <NavMenu/>
           </Sider>
           <Layout className="site-layout">
             <Header className="site-layout-background">
@@ -43,7 +44,7 @@ class App extends Component {
                 padding: 24,
               }}
             >
-              Content
+              <TextCard title="Content" body="Hey this is where my content will go!"/>
             </Content>
           </Layout>
         </Layout>
