@@ -28,23 +28,24 @@ class NavMenu extends Component {
             >
               <Menu.Item icon={<HomeOutlined />}>
                 Home
-                <Link to="/SimrandeepBajwaPortfolio"></Link>
+                <Link to="/SimrandeepBajwaPortfolio"/>
               </Menu.Item>
               <Menu.Item icon={<QuestionCircleOutlined />}>
                 About
               </Menu.Item>
               <Menu.Item icon={<FileTextOutlined />}>
                 Resume
-                <Link to="/SimrandeepBajwaPortfolio/resume"></Link>
+                <Link to="/SimrandeepBajwaPortfolio/resume"/>
               </Menu.Item>
               <SubMenu icon={<DesktopOutlined />} title="Work-Terms">
                   <Menu.Item icon={<AuditOutlined />}>
                     CaseWare
-                    <Link to="/SimrandeepBajwaPortfolio/caseware"></Link>
+                    <Link to="/SimrandeepBajwaPortfolio/caseware"/>
                   </Menu.Item>
               </SubMenu>
               <Menu.Item icon={<CodeOutlined />}>
                 Projects
+                <Link to="/SimrandeepBajwaPortfolio/projects"/>
               </Menu.Item>
               <Menu.Item icon={<NotificationOutlined />}>
                 Awards
