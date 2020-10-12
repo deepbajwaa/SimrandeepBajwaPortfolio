@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavMenu from './components/NavMenu';
 import CasewarePage from './components/CasewarePage';
+import ResumePage from './components/ResumePage';
 import { Typography } from 'antd';
 import './App.css';
 import { Layout, Avatar  } from 'antd';
@@ -50,7 +51,8 @@ class App extends Component {
                 }}
               >
                 <Route path="/SimrandeepBajwaPortfolio" exact/>
-                <Route path="/SimrandeepBajwaPortfolio/Caseware" component={CasewarePage}/>
+                <Route path="/SimrandeepBajwaPortfolio/caseware" component={CasewarePage}/>
+                <Route path="/SimrandeepBajwaPortfolio/resume" component={ResumePage}/>
               </Content>
             </Layout>
           </Layout>

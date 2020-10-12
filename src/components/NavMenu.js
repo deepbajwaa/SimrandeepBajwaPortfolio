@@ -35,11 +35,12 @@ class NavMenu extends Component {
               </Menu.Item>
               <Menu.Item icon={<FileTextOutlined />}>
                 Resume
+                <Link to="/SimrandeepBajwaPortfolio/resume"></Link>
               </Menu.Item>
               <SubMenu icon={<DesktopOutlined />} title="Work-Terms">
                   <Menu.Item icon={<AuditOutlined />}>
                     CaseWare
-                    <Link to="/SimrandeepBajwaPortfolio/Caseware"></Link>
+                    <Link to="/SimrandeepBajwaPortfolio/caseware"></Link>
                   </Menu.Item>
               </SubMenu>
               <Menu.Item icon={<CodeOutlined />}>

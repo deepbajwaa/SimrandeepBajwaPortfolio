@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Typography, Image } from 'antd';
 import './CasewarePage.css';
 
-const { Title, Paragraph } = Typography;
+const { Title, Paragraph, Text } = Typography;
 
 class CasewarePage extends Component {
     render() {
@@ -18,6 +18,7 @@ class CasewarePage extends Component {
                     expanding my interest in software engineering.
                 </Paragraph>
                 <Image style={{position: 'relative', left: '60vh'}} className='image-styling' width={500} src={require('../resources/setup.jpeg')}/>
+                <br/><Text style={{position: 'relative', left: '76vh',fontSize: '15px'}} type="secondary">My setup for the 8 month term</Text>
                 <Title level={2}>What does CaseWare do?</Title>
                 <Paragraph>
                     Caseware is an international corporation that focuses on developing software solutions for auditing, financial reporting, and 
@@ -33,11 +34,13 @@ class CasewarePage extends Component {
                 <Title level={2}>Goals</Title>
                 <Paragraph> 
                     In order to make this experience educational and advantageous for myself, I established the following goals:
+                    <span style={{position: "relative", left: "40px"}}>
                         <br/>1. To learn about the Agile methodology, and applying it to a real workplace environment
                         <br/>2. Increase my knowledge of web development (specifically the Angular framework), to complement my knowledge of backend development.
                         <br/>3. Writing clean and well thought out efficient code that can be reused in the future.
                         <br/>4. Be able to create a minor feature that is introduced to the software, or be able to make bug fixes independently.
                         <br/>5. Work on developing better public speaking skills by the end of the work term.
+                    </span>
                         <br/><br/>I believe I have been successful at achieving these goals that I set for myself over the 8 month term. I was able to learn 
                         the Agile methodology through courses on Linkedin learning and by engaging in daily Agile ceremonies. My team used Angular 
                         to create the front-end of our application, which allowed me to learn about web development. I learned about writing clean 
@@ -47,6 +50,7 @@ class CasewarePage extends Component {
                         public speaking skills. After reaching all of these goals, I can truly say that I have grown immensely as a person and a 
                         developer.
                 </Paragraph>
+                <Image style={{postition: 'relative', left: '60vh'}} className='image-styling' width={500} src={require('../resources/goals.jpg')}/>
                 <Title level={2}>What did I do?</Title>
                 <Paragraph>
                     At the start of the term I was introduced to web frameworks, specifically Angular, which my team uses to work on our application. I 
@@ -89,6 +93,7 @@ class CasewarePage extends Component {
                     working on such a large codebase. Another really big takeaway from this course was that it was the first time we did web development at school, and it 
                     provided me with basic knowledge of web development. Without this knowledge starting at CaseWare would have been a bit difficult.           
                 </Paragraph>
+                <Image style={{postition: 'relative', left: '60vh'}} className='image-styling' width={500} src={require('../resources/academic.png')}/>
                 <Title level={2}>What I learned</Title>
                 <Title level={4}>Web Development:</Title>
                 <Paragraph>
@@ -100,6 +105,7 @@ class CasewarePage extends Component {
                     directives to help you build functionality into your HTML easily. For example, ngIf=“boolean expression” lets you remove a part of a component’s structure 
                     based on the boolean expression.
                 </Paragraph>
+                <Image style={{postition: 'relative', left: '60vh'}} className='image-styling' width={500} src={require('../resources/angular.png')}/>
                 <Title level={4}>Software development in a professional environment</Title>
                 <Paragraph>
                     To manage the software development process my team used JIRA. JIRA is very popular among software development teams, and it is a highly customizable project 
@@ -122,6 +128,7 @@ class CasewarePage extends Component {
                     Using the scrum framework we work in small iterations called sprints that can be anywhere from 2 weeks all the way to 8 weeks, and at the end of a sprint our goal is to 
                     deliver working software (i.e. a new feature) to the client.           
                 </Paragraph>
+                <Image style={{postition: 'relative', left: '60vh'}} className='image-styling' width={500} src={require('../resources/agile.png')}/>
                 <Title level={2}>Conclusion</Title>
                 <Paragraph>
                     Ultimately, this work term surpassed my expectations. It was everything I was hoping for and then some. I was introduced to a lot of new exciting technologies, and got to 
