@@ -3,3 +3,15 @@
 .site-layout-background {
   background: #fff;
 }
+
+.name-text {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 25px;
+  vertical-align: middle;
+  FONT-WEIGHT: 500;
+  position: relative;
+  left: 30px;
+}
+
+.tab { text-indent: 50px; }

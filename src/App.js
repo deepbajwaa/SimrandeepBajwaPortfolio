@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import NavMenu from './components/NavMenu';
 import CasewarePage from './components/CasewarePage';
+import { Typography } from 'antd';
 import './App.css';
-import { Layout } from 'antd';
+import { Layout, Avatar  } from 'antd';
 import {
   MenuUnfoldOutlined,
   MenuFoldOutlined,
@@ -10,6 +11,7 @@ import {
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 const { Header, Sider, Content } = Layout;
+const { Title } = Typography;
 
 class App extends Component {
   state = {
@@ -37,6 +39,8 @@ class App extends Component {
                   className: 'trigger',
                   onClick: this.toggle,
                 })}
+                <Avatar style={{left:"20px"}} src={require('./resources/profile.jpg')}>Hello</Avatar>
+                <span className="name-text">Simrandeep Bajwa</span>
               </Header>
               <Content
                 className="site-layout-background"
@@ -45,7 +49,6 @@ class App extends Component {
                   padding: 24,
                 }}
               >
-              
                 <Route path="/SimrandeepBajwaPortfolio" exact/>
                 <Route path="/SimrandeepBajwaPortfolio/Caseware" component={CasewarePage}/>
               </Content>
