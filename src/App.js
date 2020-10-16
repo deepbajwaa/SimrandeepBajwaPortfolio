@@ -3,7 +3,6 @@ import NavMenu from './components/NavMenu';
 import ResumePage from './components/ResumePage';
 import CasewarePage from './components/CasewarePage';
 import ProjectPage from './components/ProjectPage';
-import { Typography } from 'antd';
 import './App.css';
 import { Layout, Avatar  } from 'antd';
 import {
@@ -13,7 +12,6 @@ import {
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 const { Header, Sider, Content } = Layout;
-const { Title } = Typography;
 
 class App extends Component {
   state = {

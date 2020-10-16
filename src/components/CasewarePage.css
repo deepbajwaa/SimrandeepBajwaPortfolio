@@ -2,7 +2,11 @@
     font-size: 20px;    
 }
 
-.image-styling {
-    position: relative; 
-    left: '60vh';
+.caption-styling {
+    font-size: 15px;
+}
+
+.tab {
+    position: relative;
+    left: 40px;
 }
