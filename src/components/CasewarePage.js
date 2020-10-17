@@ -8,7 +8,10 @@ class CasewarePage extends Component {
     render() {
         return (
             <Typography class="text">
-                <Title level={2}>Introduction</Title>
+                <center>
+                    <Title level={1}>CaseWare Work-Term Report S20-F20</Title>
+                </center>
+                <br/><br/><Title level={2}>Introduction</Title>
                 <Paragraph>
                     Welcome! My name is Simrandeep Bajwa, and I am a 3rd year student at the University of Guelph majoring in Computer Science with 
                     a minor in Business.Through the following reflection, I will showcase my involvement and the experience I have obtained through 

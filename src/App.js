@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavMenu from './components/NavMenu';
+import HomePage from './components/HomePage'
 import ResumePage from './components/ResumePage';
 import CasewarePage from './components/CasewarePage';
 import ProjectPage from './components/ProjectPage';
@@ -49,7 +50,7 @@ class App extends Component {
                   padding: 24,
                 }}
               >
-                <Route path="/SimrandeepBajwaPortfolio" exact/>
+                <Route path="/SimrandeepBajwaPortfolio" exact component={HomePage}/>
                 <Route path="/SimrandeepBajwaPortfolio/resume" component={ResumePage}/>
                 <Route path="/SimrandeepBajwaPortfolio/caseware" component={CasewarePage}/>
                 <Route path="/SimrandeepBajwaPortfolio/projects" component={ProjectPage}/>

@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 import {
     HomeOutlined,
-    QuestionCircleOutlined,
     FileTextOutlined,
     DesktopOutlined,
     AuditOutlined,
@@ -29,9 +28,6 @@ class NavMenu extends Component {
               <Menu.Item icon={<HomeOutlined />}>
                 Home
                 <Link to="/SimrandeepBajwaPortfolio"/>
-              </Menu.Item>
-              <Menu.Item icon={<QuestionCircleOutlined />}>
-                About
               </Menu.Item>
               <Menu.Item icon={<FileTextOutlined />}>
                 Resume
