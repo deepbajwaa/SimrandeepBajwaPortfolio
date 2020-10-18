@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import NavMenu from './components/NavMenu';
 import HomePage from './components/HomePage'
+import AboutPage from './components/AboutPage';
 import ResumePage from './components/ResumePage';
 import CasewarePage from './components/CasewarePage';
 import ProjectPage from './components/ProjectPage';
+import AwardPage from './components/AwardPage';
 import './App.css';
 import { Layout, Avatar  } from 'antd';
 import {
@@ -51,9 +53,11 @@ class App extends Component {
                 }}
               >
                 <Route path="/SimrandeepBajwaPortfolio" exact component={HomePage}/>
+                <Route path="/SimrandeepBajwaPortfolio/about" component={AboutPage}/>
                 <Route path="/SimrandeepBajwaPortfolio/resume" component={ResumePage}/>
                 <Route path="/SimrandeepBajwaPortfolio/caseware" component={CasewarePage}/>
                 <Route path="/SimrandeepBajwaPortfolio/projects" component={ProjectPage}/>
+                <Route path="/SimrandeepBajwaPortfolio/awards" component={AwardPage}/>
               </Content>
             </Layout>
           </Layout>

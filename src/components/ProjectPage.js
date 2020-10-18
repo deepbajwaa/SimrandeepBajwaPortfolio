@@ -3,7 +3,7 @@ import { Typography } from 'antd';
 import { Card } from 'antd';
 import './ProjectPage.css';
 
-const { Title } = Typography;
+const { Title , Text} = Typography;
 const { Meta } = Card;
 
 class ProjectPage extends Component {
@@ -11,6 +11,10 @@ class ProjectPage extends Component {
         return (
             <div>
                 <Title>Projects</Title>
+                <Text type="secondary">
+                    Below is a collection of some of the projects I have worked on. More projects are available on my
+                    <a href="https://github.com/deepbajwaa" target="_blank" rel="noopener noreferrer"> GitHub</a>.
+                </Text>
                 <div className="container">
                     <Card
                     className="card-styling"

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import {
     HomeOutlined,
+    UserOutlined,
     FileTextOutlined,
     DesktopOutlined,
     AuditOutlined,
@@ -29,6 +30,10 @@ class NavMenu extends Component {
                 Home
                 <Link to="/SimrandeepBajwaPortfolio"/>
               </Menu.Item>
+              <Menu.Item icon={<UserOutlined />}>
+                About
+                <Link to="/SimrandeepBajwaPortfolio/about"/>
+              </Menu.Item>
               <Menu.Item icon={<FileTextOutlined />}>
                 Resume
                 <Link to="/SimrandeepBajwaPortfolio/resume"/>
@@ -45,6 +50,7 @@ class NavMenu extends Component {
               </Menu.Item>
               <Menu.Item icon={<NotificationOutlined />}>
                 Awards
+                <Link to="/SimrandeepBajwaPortfolio/awards"/>
               </Menu.Item>
               <SubMenu icon={<ShareAltOutlined />} title="Other Links">
                   <Menu.Item icon={<MailOutlined />}>
