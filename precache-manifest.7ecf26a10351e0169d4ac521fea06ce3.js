@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14f8a50f3b42611bfa92373a7b5f38f8",
+    "revision": "2ba476e6bff73cb7365b6a319db07b0d",
     "url": "/SimrandeepBajwaPortfolio/index.html"
   },
   {
-    "revision": "2c74a5bb7b9290993168",
+    "revision": "8c90798aa550646ee16a",
     "url": "/SimrandeepBajwaPortfolio/static/css/2.220ccb42.chunk.css"
   },
   {
-    "revision": "04e2b7b06ebff27b6bf8",
+    "revision": "c17fe54d7bd987f2f8ba",
     "url": "/SimrandeepBajwaPortfolio/static/css/main.176a74f2.chunk.css"
   },
   {
-    "revision": "2c74a5bb7b9290993168",
-    "url": "/SimrandeepBajwaPortfolio/static/js/2.05fb1d23.chunk.js"
+    "revision": "8c90798aa550646ee16a",
+    "url": "/SimrandeepBajwaPortfolio/static/js/2.29294af7.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/SimrandeepBajwaPortfolio/static/js/2.05fb1d23.chunk.js.LICENSE.txt"
+    "url": "/SimrandeepBajwaPortfolio/static/js/2.29294af7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "04e2b7b06ebff27b6bf8",
-    "url": "/SimrandeepBajwaPortfolio/static/js/main.1dc8cb3f.chunk.js"
+    "revision": "c17fe54d7bd987f2f8ba",
+    "url": "/SimrandeepBajwaPortfolio/static/js/main.c4d2278b.chunk.js"
   },
   {
     "revision": "792e4a7634855a51ec22",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7d4c425a0803ad715173435740239fa1",
     "url": "/SimrandeepBajwaPortfolio/static/media/2014ForestHillsDrive.7d4c425a.jpg"
-  },
-  {
-    "revision": "cb4ade7f9bf248349390e7f1523734de",
-    "url": "/SimrandeepBajwaPortfolio/static/media/Simrandeep Bajwa - Resume.cb4ade7f.pdf"
   },
   {
     "revision": "c3ac937470cc90385844e2c3f088ca5e",
