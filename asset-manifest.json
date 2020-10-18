@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/SimrandeepBajwaPortfolio/static/css/main.176a74f2.chunk.css",
-    "main.js": "/SimrandeepBajwaPortfolio/static/js/main.c4d2278b.chunk.js",
-    "main.js.map": "/SimrandeepBajwaPortfolio/static/js/main.c4d2278b.chunk.js.map",
+    "main.css": "/SimrandeepBajwaPortfolio/static/css/main.6c22f6d3.chunk.css",
+    "main.js": "/SimrandeepBajwaPortfolio/static/js/main.5c0b7821.chunk.js",
+    "main.js.map": "/SimrandeepBajwaPortfolio/static/js/main.5c0b7821.chunk.js.map",
     "runtime-main.js": "/SimrandeepBajwaPortfolio/static/js/runtime-main.9a4a540f.js",
     "runtime-main.js.map": "/SimrandeepBajwaPortfolio/static/js/runtime-main.9a4a540f.js.map",
     "static/css/2.220ccb42.chunk.css": "/SimrandeepBajwaPortfolio/static/css/2.220ccb42.chunk.css",
     "static/js/2.29294af7.chunk.js": "/SimrandeepBajwaPortfolio/static/js/2.29294af7.chunk.js",
     "static/js/2.29294af7.chunk.js.map": "/SimrandeepBajwaPortfolio/static/js/2.29294af7.chunk.js.map",
     "index.html": "/SimrandeepBajwaPortfolio/index.html",
-    "precache-manifest.7ecf26a10351e0169d4ac521fea06ce3.js": "/SimrandeepBajwaPortfolio/precache-manifest.7ecf26a10351e0169d4ac521fea06ce3.js",
+    "precache-manifest.76fe8544823d0ce265f78d461a077016.js": "/SimrandeepBajwaPortfolio/precache-manifest.76fe8544823d0ce265f78d461a077016.js",
     "service-worker.js": "/SimrandeepBajwaPortfolio/service-worker.js",
     "static/css/2.220ccb42.chunk.css.map": "/SimrandeepBajwaPortfolio/static/css/2.220ccb42.chunk.css.map",
-    "static/css/main.176a74f2.chunk.css.map": "/SimrandeepBajwaPortfolio/static/css/main.176a74f2.chunk.css.map",
+    "static/css/main.6c22f6d3.chunk.css.map": "/SimrandeepBajwaPortfolio/static/css/main.6c22f6d3.chunk.css.map",
     "static/js/2.29294af7.chunk.js.LICENSE.txt": "/SimrandeepBajwaPortfolio/static/js/2.29294af7.chunk.js.LICENSE.txt",
     "static/media/2014ForestHillsDrive.jpg": "/SimrandeepBajwaPortfolio/static/media/2014ForestHillsDrive.7d4c425a.jpg",
     "static/media/academic.png": "/SimrandeepBajwaPortfolio/static/media/academic.c3ac9374.png",
@@ -36,7 +36,7 @@
     "static/js/runtime-main.9a4a540f.js",
     "static/css/2.220ccb42.chunk.css",
     "static/js/2.29294af7.chunk.js",
-    "static/css/main.176a74f2.chunk.css",
-    "static/js/main.c4d2278b.chunk.js"
+    "static/css/main.6c22f6d3.chunk.css",
+    "static/js/main.5c0b7821.chunk.js"
   ]
 }
