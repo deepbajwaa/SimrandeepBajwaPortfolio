@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ca0ecf46b50570957b8086438bfa96db",
+    "revision": "22dec38b8a0ec3d1751015c6ba7a1220",
     "url": "/SimrandeepBajwaPortfolio/index.html"
   },
   {
-    "revision": "8c90798aa550646ee16a",
+    "revision": "d7e85f7f5dadc3c48c08",
     "url": "/SimrandeepBajwaPortfolio/static/css/2.220ccb42.chunk.css"
   },
   {
-    "revision": "48f8847e5edccf6d5a5d",
-    "url": "/SimrandeepBajwaPortfolio/static/css/main.6c22f6d3.chunk.css"
+    "revision": "b55f6d1349e8ce40b000",
+    "url": "/SimrandeepBajwaPortfolio/static/css/main.78265ad2.chunk.css"
   },
   {
-    "revision": "8c90798aa550646ee16a",
-    "url": "/SimrandeepBajwaPortfolio/static/js/2.29294af7.chunk.js"
+    "revision": "d7e85f7f5dadc3c48c08",
+    "url": "/SimrandeepBajwaPortfolio/static/js/2.d5980452.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/SimrandeepBajwaPortfolio/static/js/2.29294af7.chunk.js.LICENSE.txt"
+    "url": "/SimrandeepBajwaPortfolio/static/js/2.d5980452.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "48f8847e5edccf6d5a5d",
-    "url": "/SimrandeepBajwaPortfolio/static/js/main.5c0b7821.chunk.js"
+    "revision": "b55f6d1349e8ce40b000",
+    "url": "/SimrandeepBajwaPortfolio/static/js/main.523c4142.chunk.js"
   },
   {
     "revision": "792e4a7634855a51ec22",
@@ -68,12 +68,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SimrandeepBajwaPortfolio/static/media/kissland.282aef5b.png"
   },
   {
+    "revision": "ab7d8d34292ec5459d08460549784a1c",
+    "url": "/SimrandeepBajwaPortfolio/static/media/lowry.ab7d8d34.jpg"
+  },
+  {
     "revision": "356e47869bf819c931ca7af953e319c0",
     "url": "/SimrandeepBajwaPortfolio/static/media/portfolio.356e4786.jpg"
   },
   {
     "revision": "c6a3f07abc5e583a20fb41f9dbcc0a86",
     "url": "/SimrandeepBajwaPortfolio/static/media/profile.c6a3f07a.jpg"
+  },
+  {
+    "revision": "e8b96641d340cca29063ec8e9fca15ca",
+    "url": "/SimrandeepBajwaPortfolio/static/media/raptors.e8b96641.jpg"
   },
   {
     "revision": "dc8768005c8fa2613bd6448b85fbc52d",
