@@ -20,11 +20,11 @@ class AwardPage extends Component {
                 </Card>
                 <Card className="card-award-styling" style={{ marginTop: '25px', backgroundColor: 'rgb(230, 225, 225)' }}>
                     <Title level={4}>
-                        <pre>Dean's Scholarship (Fall 2019)</pre>
+                        <pre>Dean's Scholarship (Fall 2019, Fall 2020)</pre>
                     </Title>
                     <Paragraph>
                         Awarded by the College of Engineering and Physical Sciences to students who have been on the Dean's List for
-                        two consecutive semesters.
+                        two consecutive semesters, and have the highest academic standing in the college.
                     </Paragraph>
                 </Card>
                 <Card className="card-award-styling" style={{ marginTop: '25px' }}>

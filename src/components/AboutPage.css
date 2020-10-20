@@ -1,0 +1,16 @@
+.interest-styling {
+    margin-top: 1.2em;
+    font-size: 16px;
+}
+
+.margin-option-one {
+    flex: 1;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.margin-option-two {
+    flex: 1;
+    margin-right: 30px;
+    margin-left: 30px;
+}
