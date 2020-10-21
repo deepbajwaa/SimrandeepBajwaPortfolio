@@ -16,9 +16,16 @@ class HomePage extends Component {
                 <center classname="container">
                     <br/><h1 className="type-animation">Hello, My Name Is Simrandeep!</h1>
                     <Card title="Bio"  style={{ width: '75%' }}>
-                        <Paragraph>Welcome to my website! My name is Simrandeep Bajwa and I am a 3rd year Computer Science student at the University 
-                            of Guelph. Through this website my main focus is to capture all of my experiences related to software development. 
-                            I hope you as a reader are able to relive some of these experiences.
+                        <Paragraph>
+                            Welcome to my website! I am a third-year student at the University of Guelph with a growing passion to learn more 
+                            about software development. I have previously worked at CaseWare as a software developer on an 8-month work-term. 
+                            You can learn more about this experience through my CaseWare work-term report. I am very familiar with the Agile 
+                            methodology and Agile frameworks such as Scrum, which I used on a daily basis at CaseWare. Moreover, I am familiar 
+                            with web frameworks including Angular, AngularJS, and React. I also have experience with technologies and languages 
+                            including Git, C, Java, JavaScript, TypeScript, HTML, CSS, LESS, SCSS and Python. This is only the beginning of my 
+                            software development career. I am very devoted to continuous learning to further diversify and build my skill set. 
+                            One of my main goals as a programmer is to build meaningful software that can make others lives easier or more convenient. 
+                            Feel free to check out the rest of my website to learn more about me. 
                         </Paragraph>
                     </Card>
                 </center>

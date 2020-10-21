@@ -9,8 +9,6 @@ class AboutPage extends Component {
     render() {
         return (
             <div>
-                <Title level={2}>Software Development Experience</Title>
-
                 <Title level={2}>Hobbies / Interests</Title>
                 <Text type="secondary">Below is a collection of hobbies and Interests that I have picked up over the years.</Text>
 
@@ -36,7 +34,7 @@ class AboutPage extends Component {
                        My passion for shoes come from basketball. I am a big fan of Jordans. During my spare time I like to flip
                        sneakers. I will usually try to buy an exclusive pair of shoes on release date, and sell that shoe to buy
                        the pair of sneakers I actually want. Below are my favourites from my collection so far: Jordan 4 Retro 
-                       "Metallic Red" (left), Jordan 5 Retro Fire Red Silver Tongue (right). 
+                       "Metallic Red" (left), Jordan 5 Retro "Fire Red Silver Tongue" (right). 
                     </Paragraph>
                     <span className="container">
                         <Image className="margin-option-one" width={188} height={600} src={require('../resources/jordan4.jpeg')}/>
