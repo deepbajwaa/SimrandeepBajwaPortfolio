@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavMenu from './components/NavMenu';
-import HomePage from './components/HomePage'
+import HomePage from './components/HomePage';
+import OtherLinks from './components/OtherLinks';
 import AboutPage from './components/AboutPage';
 import ResumePage from './components/ResumePage';
 import CasewarePage from './components/CasewarePage';
@@ -10,7 +11,7 @@ import './App.css';
 import { Layout, Avatar  } from 'antd';
 import {
   MenuUnfoldOutlined,
-  MenuFoldOutlined,
+  MenuFoldOutlined
 } from '@ant-design/icons';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
@@ -33,17 +34,19 @@ class App extends Component {
         <div className="App">
           <Layout style={{minHeight:"100vh"}}>
             <Sider trigger={null} collapsible collapsed={this.state.collapsed}>
-              <div className="logo" />
               <NavMenu/>
             </Sider>
             <Layout className="site-layout">
               <Header className="site-layout-background">
-                {React.createElement(this.state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
-                  className: 'trigger',
-                  onClick: this.toggle,
-                })}
-                <Avatar style={{left:"20px"}} src={require('./resources/profile.jpg')}>Hello</Avatar>
-                <span className="name-text">Simrandeep Bajwa</span>
+                <div>
+                  {React.createElement(this.state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
+                    className: 'trigger',
+                    onClick: this.toggle,
+                  })}
+                  <Avatar style={{left:"20px"}} src={require('./resources/profile.jpg')} />
+                  <span className="name-text">Simrandeep Bajwa</span>
+                </div>
+                <OtherLinks />
               </Header>
               <Content
                 className="site-layout-background"
