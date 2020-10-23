@@ -1,0 +1,32 @@
+.text {
+    font-size: 20px;    
+}
+
+.tab {
+    position: relative;
+    left: 40px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture-format {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.paragraph-format {
+    flex: 2;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.paragraph-format-right {
+    flex: 2;
+    margin-right: 10px;
+}

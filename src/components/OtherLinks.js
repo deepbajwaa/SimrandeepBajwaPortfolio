@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './OtherLinks.css'
 import {
   MailFilled,
   GithubOutlined,
   LinkedinOutlined,
 } from '@ant-design/icons';
+import './styles/OtherLinks.css'
 
 class OtherLinks extends Component {
     render() {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Typography, Image } from 'antd';
-import './AboutPage.css';
-import './ProjectPage.css'
+import './styles/AboutPage.css';
+import './styles/ProjectPage.css'
 
 const { Title, Paragraph, Text } = Typography;
 

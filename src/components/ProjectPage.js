@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Typography } from 'antd';
 import { Card } from 'antd';
-import './ProjectPage.css';
+import './styles/ProjectPage.css';
 
 const { Title , Text} = Typography;
 const { Meta } = Card;

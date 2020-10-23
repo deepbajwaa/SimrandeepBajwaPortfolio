@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Typography, Image } from 'antd';
-import './CasewarePage.css';
+import './styles/CasewarePage.css';
 
-const { Title, Paragraph, Text } = Typography;
+const { Title, Paragraph } = Typography;
 
 class CasewarePage extends Component {
     render() {
@@ -11,36 +11,34 @@ class CasewarePage extends Component {
                 <center>
                     <Title level={1}>CaseWare Work-Term Report S20-F20</Title>
                 </center>
-                <br/><br/><Title level={2}>Introduction</Title>
-                <Paragraph>
-                    Welcome! My name is Simrandeep Bajwa, and I am a 3rd year student at the University of Guelph majoring in Computer Science with 
-                    a minor in Business.Through the following reflection, I will showcase my involvement and the experience I have obtained through 
-                    my first Co-op work term. Through hard work and numerous job applications, I was fortunate enough to land a job as a Software 
-                    Developer at CaseWare for 8 months. In retrospect, I was very nervous going downtown Toronto for this job interview. 
-                    Nevertheless, I’m appreciative that Caseware took me under their wing and opened up new opportunities, further expanding my 
-                    interest in software engineering.
-                </Paragraph>
 
-                <center>
-                    <br/><Image width={500} src={require('../resources/setup.jpeg')}/>
-                    <br/><Text className="caption-styling" type="secondary">My setup for the 8 month term</Text>
-                </center>
+                <br/><br/><Title level={2}>Introduction</Title>
+                <div className="text-container">
+                    <Image className="picture-format"  width={400} src={require('../resources/setup.jpeg')}/>
+                    <span className="paragraph-format">
+                        Welcome! My name is Simrandeep Bajwa, and I am a 3rd year student at the University of Guelph majoring in Computer Science with 
+                        a minor in Business.Through the following reflection, I will showcase my involvement and the experience I have obtained through 
+                        my first Co-op work term. Through hard work and numerous job applications, I was fortunate enough to land a job as a Software 
+                        Developer at CaseWare for 8 months. In retrospect, I was very nervous going downtown Toronto for this job interview. 
+                        Nevertheless, I’m appreciative that Caseware took me under their wing and opened up new opportunities, further expanding my 
+                        interest in software engineering. My setup for the 8 months (Left).
+                    </span>
+                </div>
 
                 <br/><br/><Title level={2}>What does CaseWare do?</Title>
-                <Paragraph>
-                    Caseware is an international corporation that focuses on developing software solutions for auditing, financial reporting, and data 
-                    analytics. They have a range of solutions that serve at different levels such as accounting firms, corporations, and government 
-                    bodies. Caseware consists of several teams as every team focuses on distinct software and different parts of the codebase.For 
-                    example, certain squads within a team may be concerned with front-end development, meanwhile others are focusing on back-end 
-                    development.  Nevertheless, the distinct squads must work together closely and simultaneously in efforts which require multiple squads. 
-                    Caseware continuously works on pushing out new innovative technology to change the future of accounting and auditing. Caseware even 
-                    has some products that use artificial intelligence in order to perform an analysis on a given data set and transactions to detect 
-                    any anomalies.
-                </Paragraph>
-
-                <center>
-                    <br/><Image width={500} src={require('../resources/caseware.jpg')}/>
-                </center>
+                <div className="text-container">
+                    <span className="paragraph-format-right">
+                        Caseware is an international corporation that focuses on developing software solutions for auditing, financial reporting, and data 
+                        analytics. They have a range of solutions that serve at different levels such as accounting firms, corporations, and government 
+                        bodies. Caseware consists of several teams as every team focuses on distinct software and different parts of the codebase.For 
+                        example, certain squads within a team may be concerned with front-end development, meanwhile others are focusing on back-end 
+                        development.  Nevertheless, the distinct squads must work together closely and simultaneously in efforts which require multiple squads. 
+                        Caseware continuously works on pushing out new innovative technology to change the future of accounting and auditing. Caseware even 
+                        has some products that use artificial intelligence in order to perform an analysis on a given data set and transactions to detect 
+                        any anomalies.
+                    </span>
+                    <Image className="picture-format"  width={400} src={require('../resources/caseware.jpg')}/>
+                </div>
 
                 <br/><br/><Title level={2}>Goals</Title>
                 <Paragraph> 
@@ -53,18 +51,17 @@ class CasewarePage extends Component {
                         <br/>5. Work on developing better public speaking skills by the end of the work term.
                     </span>
                 </Paragraph>
-                <Paragraph>
-                    I have been successful at achieving these goals that I set for myself over the 8 month term. I was able to learn the Agile methodology through 
-                    courses on Linkedin learning and by engaging in daily Agile ceremonies. My team used Angular to create the front-end of our application, which 
-                    allowed me to learn about web development. I learned about writing clean code through the comments and feedback my mentors gave me on my code. 
-                    My team started me off with bugs, and then gradually moved me on to stories and features. At first I required help from my mentors, however, 
-                    over time I started to become more independent. I was presented with opportunities to demonstrate my work to fellow co-workers allowing me to 
-                    exercise my public speaking skills. After reaching all of these goals, I can truly say that I have grown immensely as a person and a developer.
-                </Paragraph>
-
-                <center>
-                    <br/><Image width={500} src={require('../resources/goals.jpg')}/>
-                </center>
+                <div className="text-container">
+                    <Image className="picture-format"  width={400} src={require('../resources/goals.jpg')} />
+                    <span className="paragraph-format">
+                        I have been successful at achieving these goals that I set for myself over the 8 month term. I was able to learn the Agile methodology through 
+                        courses on Linkedin learning and by engaging in daily Agile ceremonies. My team used Angular to create the front-end of our application, which 
+                        allowed me to learn about web development. I learned about writing clean code through the comments and feedback my mentors gave me on my code. 
+                        My team started me off with bugs, and then gradually moved me on to stories and features. At first I required help from my mentors, however, 
+                        over time I started to become more independent. I was presented with opportunities to demonstrate my work to fellow co-workers allowing me to 
+                        exercise my public speaking skills. After reaching all of these goals, I can truly say that I have grown immensely as a person and a developer.
+                    </span>
+                </div>
 
                 <br/><br/><Title level={2}>What did I do?</Title>
                 <Paragraph>
@@ -102,33 +99,30 @@ class CasewarePage extends Component {
                     when higher level languages mask those details. Object Oriented Programming taught me a lot about the fundamentals of Objects and Polymorphism that 
                     I used on a daily basis.            
                 </Paragraph>
-                <Paragraph>
-                    Software Systems Development and Integration was a course that I found to be particularly helpful. This course puts a very strong emphasis on coding 
-                    according to a specification and making sure to pay attention to fine details.This is very applicable to the workplace as oftentimes, clients request 
-                    to build certain features. Additionally, when working on small bugs it's vital to think through the changes you are going to make when working on such 
-                    a large codebase. Also, this course provided me with experience and a basic framework of web development. This knowledge later proved to be imperative 
-                    at CaseWare.           
-                </Paragraph>
-
-                <center>
-                    <Image width={500} src={require('../resources/academic.png')}/>
-                </center>
+                <div className="text-container">
+                    <span className="paragraph-format-right">
+                        Software Systems Development and Integration was a course that I found to be particularly helpful. This course puts a very strong emphasis on coding 
+                        according to a specification and making sure to pay attention to fine details.This is very applicable to the workplace as oftentimes, clients request 
+                        to build certain features. Additionally, when working on small bugs it's vital to think through the changes you are going to make when working on such 
+                        a large codebase. Also, this course provided me with experience and a basic framework of web development. This knowledge later proved to be imperative 
+                        at CaseWare.   
+                    </span>
+                    <Image className="picture-format"  width={400} src={require('../resources/academic.png')}/>
+                </div>
 
                 <br/><br/><Title level={2}>What did I learn?</Title>
                 <Title level={4}>Web Development</Title>
-                <Paragraph>
-                    Prior to working at CaseWare I had minimal knowledge of web development and web frameworks. During my first week I was introduced to Angular (a web 
-                    framework). Angular is a web framework that focuses on creating efficient and sophisticated single page applications. Angular breaks a page down into 
-                    components to create webpages. Each component has a selector, Typescript, HTML, and CSS that is associated with it. From here you can use the HTML to 
-                    define its structure, create functionality using the Typescript, and finally use CSS to style the component. Now the component can be reused using the 
-                    selector, leading to an efficient application. To make your life easier as a developer, Angular has a lot of built-in directives to help you build 
-                    functionality into your HTML. For example, ngIf=“boolean expression” lets you remove a part of a component’s structure based on the boolean expression.
-                </Paragraph>
-
-                <center>
-                    <Image width={500} src={require('../resources/angular.png')}/>
-                </center>
-
+                <div className="text-container">
+                    <Image className="picture-format"  width={400} src={require('../resources/angular.png')} />
+                    <span className="paragraph-format">
+                        Prior to working at CaseWare I had minimal knowledge of web development and web frameworks. During my first week I was introduced to Angular (a web 
+                        framework). Angular is a web framework that focuses on creating efficient and sophisticated single page applications. Angular breaks a page down into 
+                        components to create webpages. Each component has a selector, Typescript, HTML, and CSS that is associated with it. From here you can use the HTML to 
+                        define its structure, create functionality using the Typescript, and finally use CSS to style the component. Now the component can be reused using the 
+                        selector, leading to an efficient application. To make your life easier as a developer, Angular has a lot of built-in directives to help you build 
+                        functionality into your HTML. For example, ngIf=“boolean expression” lets you remove a part of a component’s structure based on the boolean expression.
+                    </span>
+                </div>
 
                 <br/><br/><Title level={4}>Software development in a professional environment</Title>
                 <Paragraph>
@@ -142,21 +136,20 @@ class CasewarePage extends Component {
                 </Paragraph>
 
                 <Title level={4}>Team Management (Agile)</Title>
-                <Paragraph>
-                    I had always heard of the Agile Software Development Methodology, however, I never got the chance to learn or apply it in a real workplace. CaseWare 
-                    presented me the perfect opportunity to do both. My team used the Agile methodology to develop software, more specifically we used the Scrum framework. 
-                    In the Scrum framework we have two main roles: the Product Owner and the Scrum Master. The Scrum Master has many different responsibilities such as 
-                    encouraging the team, protecting the team, and facilitating scrum ceremonies. The product owner represents the client, and comes up with user stories 
-                    from client requests. The Scrum framework also consists of important ceremonies such as standups, retrospectives, and backlog refinements. Standups 
-                    consist of the team members discussing what they have been previously working on and what they will complete moving forward on a day-to-day basis. During 
-                    backlog refinements we look at tickets and point them using pointing poker. Finally, during retrospectives we get together and talk about what we did well 
-                    in the past sprint, and what we could do better during the next sprint. Using the scrum framework we work in small iterations called sprints that can be 
-                    anywhere from 2 weeks all the way to 8 weeks, and at the end of a sprint our goal is to deliver working software (i.e. a new feature) to the client.           
-                </Paragraph>
-
-                <center>
-                    <Image width={500} src={require('../resources/agile.png')}/>
-                </center>
+                <div className="text-container">
+                    <span className="paragraph-format-right">
+                        I had always heard of the Agile Software Development Methodology, however, I never got the chance to learn or apply it in a real workplace. CaseWare 
+                        presented me the perfect opportunity to do both. My team used the Agile methodology to develop software, more specifically we used the Scrum framework. 
+                        In the Scrum framework we have two main roles: the Product Owner and the Scrum Master. The Scrum Master has many different responsibilities such as 
+                        encouraging the team, protecting the team, and facilitating scrum ceremonies. The product owner represents the client, and comes up with user stories 
+                        from client requests. The Scrum framework also consists of important ceremonies such as standups, retrospectives, and backlog refinements. Standups 
+                        consist of the team members discussing what they have been previously working on and what they will complete moving forward on a day-to-day basis. During 
+                        backlog refinements we look at tickets and point them using pointing poker. Finally, during retrospectives we get together and talk about what we did well 
+                        in the past sprint, and what we could do better during the next sprint. Using the scrum framework we work in small iterations called sprints that can be 
+                        anywhere from 2 weeks all the way to 8 weeks, and at the end of a sprint our goal is to deliver working software (i.e. a new feature) to the client.   
+                    </span>
+                    <Image className="picture-format"  width={400} src={require('../resources/agile.png')}/>
+                </div>
 
                 <br/><br/><Title level={2}>Conclusion</Title>
                 <Paragraph>

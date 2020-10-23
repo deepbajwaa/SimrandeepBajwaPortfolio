@@ -13,3 +13,11 @@
   position: relative;
   left: 30px;
 }
+
+.layout-styling {
+  min-height: 100vh;
+}
+
+.avatar-styling {
+  left: 20px;
+}

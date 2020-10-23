@@ -7,13 +7,13 @@ import ResumePage from './components/ResumePage';
 import CasewarePage from './components/CasewarePage';
 import ProjectPage from './components/ProjectPage';
 import AwardPage from './components/AwardPage';
-import './App.css';
 import { Layout, Avatar  } from 'antd';
 import {
   MenuUnfoldOutlined,
   MenuFoldOutlined
 } from '@ant-design/icons';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
+import './App.css';
 
 const { Header, Sider, Content } = Layout;
 
@@ -32,7 +32,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Layout style={{minHeight:"100vh"}}>
+          <Layout className="layout-styling">
             <Sider trigger={null} collapsible collapsed={this.state.collapsed}>
               <NavMenu/>
             </Sider>
@@ -43,7 +43,7 @@ class App extends Component {
                     className: 'trigger',
                     onClick: this.toggle,
                   })}
-                  <Avatar style={{left:"20px"}} src={require('./resources/profile.jpg')} />
+                  <Avatar className="avatar-styling" src={require('./resources/profile.jpg')} />
                   <span className="name-text">Simrandeep Bajwa</span>
                 </div>
                 <OtherLinks />
@@ -64,8 +64,8 @@ class App extends Component {
               </Content>
             </Layout>
           </Layout>
-          </div>
-        </Router>
+        </div>
+      </Router>
     );
   }
 }

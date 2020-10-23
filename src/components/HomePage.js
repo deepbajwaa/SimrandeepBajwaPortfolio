@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Card, Typography } from 'antd';
-import './HomePage.css';
+import './styles/HomePage.css';
 
 const { Paragraph } = Typography;
 
@@ -15,7 +15,7 @@ class HomePage extends Component {
                 </div>
                 <center classname="container">
                     <br/><h1 className="type-animation">Hello, My Name Is Simrandeep!</h1>
-                    <Card title="Bio"  style={{ width: '75%' }}>
+                    <Card className="biography" title="Bio">
                         <Paragraph>
                             Welcome to my website! I am a third-year student at the University of Guelph with a growing passion to learn more 
                             about software development. I have previously worked at CaseWare as a software developer on an 8-month work-term. 

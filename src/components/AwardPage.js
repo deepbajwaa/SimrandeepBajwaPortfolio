@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Typography, Card } from 'antd';
+import './styles/AwardPage.css'
 
 const { Title, Paragraph, Text } = Typography;
 
@@ -18,7 +19,7 @@ class AwardPage extends Component {
                         submission of a letter regarding how business courses compliment one's major.
                     </Paragraph>
                 </Card>
-                <Card className="card-award-styling" style={{ marginTop: '25px', backgroundColor: 'rgb(230, 225, 225)' }}>
+                <Card className="card-award-styling-grey" style={{ marginTop: '25px', backgroundColor: 'rgb(230, 225, 225)' }}>
                     <Title level={4}>
                         <pre>Dean's Scholarship (Fall 2019, Fall 2020)</pre>
                     </Title>
@@ -35,7 +36,7 @@ class AwardPage extends Component {
                         Awarded by the University of Guelph to students with an admission average higher than 85.0%.
                     </Paragraph>
                 </Card>
-                <Card className="card-award-styling" style={{ marginTop: '25px', backgroundColor: 'rgb(230, 225, 225)' }}>
+                <Card className="card-award-styling-grey" style={{ marginTop: '25px', backgroundColor: 'rgb(230, 225, 225)' }}>
                     <Title level={4}>
                         <pre>Dean's List (Fall 2018, Winter 2019, Fall 2019, Winter 2020)</pre>
                     </Title>
