@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc392f9de2cb3b5ca9e4db8edd2c69a4",
+    "revision": "6a4c801e4ccba416e9f27cd42d4c1b7e",
     "url": "/SimrandeepBajwaPortfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SimrandeepBajwaPortfolio/static/css/2.220ccb42.chunk.css"
   },
   {
-    "revision": "51c21f69034c559882ab",
-    "url": "/SimrandeepBajwaPortfolio/static/css/main.03b64920.chunk.css"
+    "revision": "c014746e91dd324b6601",
+    "url": "/SimrandeepBajwaPortfolio/static/css/main.ffe0ee21.chunk.css"
   },
   {
     "revision": "7e567d0c0d1b3bb08067",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SimrandeepBajwaPortfolio/static/js/2.a1710387.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "51c21f69034c559882ab",
-    "url": "/SimrandeepBajwaPortfolio/static/js/main.a910e536.chunk.js"
+    "revision": "c014746e91dd324b6601",
+    "url": "/SimrandeepBajwaPortfolio/static/js/main.6e1119c9.chunk.js"
   },
   {
     "revision": "792e4a7634855a51ec22",
