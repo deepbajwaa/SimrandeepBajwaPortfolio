@@ -13,7 +13,7 @@ class AboutPage extends Component {
                 <Text type="secondary">Below is a collection of hobbies and Interests that I have picked up over the years.</Text>
 
                 <div className="interest-styling" >
-                    <Title level={4}>Basketball</Title>
+                    <Title level={3}>Basketball</Title>
                     <Paragraph>
                        I have a very strong love for basketball. During the fall, winter, and spring you'll find me following the
                        Raptors closely. During summer you'll find me at the local court playing basketball, whenever I get the chance.
@@ -23,13 +23,13 @@ class AboutPage extends Component {
 
                     </Paragraph>
                     <span className="container">
-                        <Image className="margin-option-two" width={188} height={400} src={require('../resources/raptors.jpg')}/>
-                        <Image className="margin-option-two" width={188} height={400} src={require('../resources/lowry.jpg')}/>
+                        <Image className="margin-option-two" width={188} src={require('../resources/raptors.jpg')}/>
+                        <Image className="margin-option-two" width={188} src={require('../resources/lowry.jpg')}/>
                     </span>
                 </div>
 
                 <div className="interest-styling" >
-                    <Title level={4}>Sneakers</Title>
+                    <Title level={3}>Sneakers</Title>
                     <Paragraph>
                        My passion for shoes come from basketball. I am a big fan of Jordans. During my spare time I like to flip
                        sneakers. I will usually try to buy an exclusive pair of shoes on release date, and sell that shoe to buy
@@ -37,13 +37,13 @@ class AboutPage extends Component {
                        "Metallic Red" (left), Jordan 5 Retro "Fire Red Silver Tongue" (right). 
                     </Paragraph>
                     <span className="container">
-                        <Image className="margin-option-one" width={188} height={600} src={require('../resources/jordan4.jpeg')}/>
-                        <Image className="margin-option-one" width={188} height={600} src={require('../resources/jordan5.jpeg')}/>
+                        <Image className="margin-option-one" width={188} src={require('../resources/jordan4.jpeg')}/>
+                        <Image className="margin-option-one" width={188} src={require('../resources/jordan5.jpeg')}/>
                     </span>
                 </div>
 
                 <div className="interest-styling" >
-                    <Title level={4}>Music</Title>
+                    <Title level={3}>Music</Title>
                     <Paragraph>
                        I am very passionate about music. You'll see me listening to music any chance I get. Whether that be roaming 
                        around on campus, studying, and going to sleep. I am a big fan of Drake, The Weeknd, and J Cole. Below are a 
@@ -51,9 +51,9 @@ class AboutPage extends Component {
                        "Kiss Land".
                     </Paragraph>
                     <span className="container">
-                        <Image className="margin-option-two" width={188} height={400} src={require('../resources/2014ForestHillsDrive.jpg')}/>
-                        <Image className="margin-option-two" width={188} height={400} src={require('../resources/takecare.png')}/>
-                        <Image className="margin-option-two" width={188} height={400} src={require('../resources/kissland.png')}/>
+                        <Image className="margin-option-two" width={188} src={require('../resources/2014ForestHillsDrive.jpg')}/>
+                        <Image className="margin-option-two" width={188} src={require('../resources/takecare.png')}/>
+                        <Image className="margin-option-two" width={188} src={require('../resources/kissland.png')}/>
                     </span>
                 </div>
             </div>

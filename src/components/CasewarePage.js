@@ -166,6 +166,26 @@ class CasewarePage extends Component {
                 </Paragraph>
 
                 <br/><br/><Title level={2}>Acknowledgements</Title>
+                <Paragraph>
+                    First and foremost, I want to give a huge thank you to Anthony Marzotto, FanFan Huang, and Tianning Zhang for mentoring me throughout the work term. I truly
+                     appreciate the time you have taken to answer my questions, and the guidance you have given me to complete my tasks. I have gained a lot of valuable knowledge 
+                     from all of you that will prove to be beneficial in the future. The three of you continue to impress me with the amazing work you do, and I aspire to become 
+                     as great of a developer one day.             
+                </Paragraph>
+                <Paragraph>
+                    I also want to thank Lin Wu for consistently checking up on me throughout the work term to make sure I was progressing well, and always giving me positive 
+                    feedback about my work. I think the work you do is very impressive, as you consistently led our team in the right direction throughout the term.             
+                </Paragraph>
+                <Paragraph>
+                    Additionally, I want to give another huge thank you to my fellow co-ops Ori Wiegner and Danny Khuu for always being there for me, and for always helping 
+                    me out with my tasks when I was stuck. The three of us were able to create a special bond that made working from home (due to the pandemic) not so lonely, 
+                    for which I am very thankful for.             
+                </Paragraph>
+                <Paragraph>
+                    Last but not least, I want to give a huge thank you to the entire financials squad for always making me feel a part of the team, and for making the 
+                    onboarding process very easy. The team created a very positive work environment where I was always able to ask anyone on the team for help, for which I am 
+                    very grateful for.       
+                </Paragraph>
             </Typography>
         );
     }
