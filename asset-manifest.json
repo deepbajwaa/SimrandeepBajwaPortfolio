@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/SimrandeepBajwaPortfolio/static/css/main.ffe0ee21.chunk.css",
-    "main.js": "/SimrandeepBajwaPortfolio/static/js/main.6e1119c9.chunk.js",
-    "main.js.map": "/SimrandeepBajwaPortfolio/static/js/main.6e1119c9.chunk.js.map",
+    "main.js": "/SimrandeepBajwaPortfolio/static/js/main.77fabfd5.chunk.js",
+    "main.js.map": "/SimrandeepBajwaPortfolio/static/js/main.77fabfd5.chunk.js.map",
     "runtime-main.js": "/SimrandeepBajwaPortfolio/static/js/runtime-main.9a4a540f.js",
     "runtime-main.js.map": "/SimrandeepBajwaPortfolio/static/js/runtime-main.9a4a540f.js.map",
     "static/css/2.220ccb42.chunk.css": "/SimrandeepBajwaPortfolio/static/css/2.220ccb42.chunk.css",
-    "static/js/2.a1710387.chunk.js": "/SimrandeepBajwaPortfolio/static/js/2.a1710387.chunk.js",
-    "static/js/2.a1710387.chunk.js.map": "/SimrandeepBajwaPortfolio/static/js/2.a1710387.chunk.js.map",
+    "static/js/2.ced54eb6.chunk.js": "/SimrandeepBajwaPortfolio/static/js/2.ced54eb6.chunk.js",
+    "static/js/2.ced54eb6.chunk.js.map": "/SimrandeepBajwaPortfolio/static/js/2.ced54eb6.chunk.js.map",
     "index.html": "/SimrandeepBajwaPortfolio/index.html",
-    "precache-manifest.fb928cead53c143bf680d4fe01c18df0.js": "/SimrandeepBajwaPortfolio/precache-manifest.fb928cead53c143bf680d4fe01c18df0.js",
+    "precache-manifest.3b77bcec6b7a8882ee5b03ab1753e116.js": "/SimrandeepBajwaPortfolio/precache-manifest.3b77bcec6b7a8882ee5b03ab1753e116.js",
     "service-worker.js": "/SimrandeepBajwaPortfolio/service-worker.js",
     "static/css/2.220ccb42.chunk.css.map": "/SimrandeepBajwaPortfolio/static/css/2.220ccb42.chunk.css.map",
     "static/css/main.ffe0ee21.chunk.css.map": "/SimrandeepBajwaPortfolio/static/css/main.ffe0ee21.chunk.css.map",
-    "static/js/2.a1710387.chunk.js.LICENSE.txt": "/SimrandeepBajwaPortfolio/static/js/2.a1710387.chunk.js.LICENSE.txt",
+    "static/js/2.ced54eb6.chunk.js.LICENSE.txt": "/SimrandeepBajwaPortfolio/static/js/2.ced54eb6.chunk.js.LICENSE.txt",
     "static/media/2014ForestHillsDrive.jpg": "/SimrandeepBajwaPortfolio/static/media/2014ForestHillsDrive.7d4c425a.jpg",
     "static/media/Simrandeep Bajwa - Resume.pdf": "/SimrandeepBajwaPortfolio/static/media/Simrandeep Bajwa - Resume.c1a3c33e.pdf",
     "static/media/academic.png": "/SimrandeepBajwaPortfolio/static/media/academic.c3ac9374.png",
@@ -32,14 +32,13 @@
     "static/media/setup.jpeg": "/SimrandeepBajwaPortfolio/static/media/setup.dc876800.jpeg",
     "static/media/takecare.png": "/SimrandeepBajwaPortfolio/static/media/takecare.fc393b78.png",
     "static/media/tech.jpg": "/SimrandeepBajwaPortfolio/static/media/tech.f0533441.jpg",
-    "static/media/transportation.jpg": "/SimrandeepBajwaPortfolio/static/media/transportation.3df81ebd.jpg",
-    "static/media/widescreen1.jpg": "/SimrandeepBajwaPortfolio/static/media/widescreen1.0d96aa90.jpg"
+    "static/media/transportation.jpg": "/SimrandeepBajwaPortfolio/static/media/transportation.3df81ebd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9a4a540f.js",
     "static/css/2.220ccb42.chunk.css",
-    "static/js/2.a1710387.chunk.js",
+    "static/js/2.ced54eb6.chunk.js",
     "static/css/main.ffe0ee21.chunk.css",
-    "static/js/main.6e1119c9.chunk.js"
+    "static/js/main.77fabfd5.chunk.js"
   ]
 }
