@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, Typography } from 'antd';
+import { Card, Typography, Image } from 'antd';
 import './styles/HomePage.css';
 
 const { Paragraph } = Typography;
@@ -10,7 +10,7 @@ class HomePage extends Component {
             <div>
                 <div className="cover">
                     <center>
-                        <img alt="cover-view" src={require('../resources/widescreen1.jpg')} width="650" height="350"/>
+                        <Image width={300} src={require('../resources/profile.jpg')}/>
                     </center>
                 </div>
                 <center classname="container">
