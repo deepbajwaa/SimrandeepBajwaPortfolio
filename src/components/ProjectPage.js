@@ -2,11 +2,43 @@ import React, { Component } from 'react';
 import { Typography } from 'antd';
 import { Card } from 'antd';
 import './styles/ProjectPage.css';
+import firebase from 'firebase';
 
 const { Title , Text} = Typography;
 const { Meta } = Card;
 
 class ProjectPage extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            projects: {
+                website: '',
+                dragons: '',
+                amazon: '',
+                transportation: '',
+                linkedList: '',
+                tictactoe: ''
+            }
+        };
+    }
+
+    componentDidMount() {
+        const rootRef = firebase.database().ref();
+        if (rootRef) {
+            const projectRef = rootRef.child('projects');
+            if (projectRef) {
+                projectRef.on('value', snap => {
+                    if (snap) {
+                        this.setState({
+                            projects: snap.val()
+                        });   
+                    }
+                });
+            } 
+        }
+    }
+
     render() {
         return (
             <div>
@@ -23,7 +55,7 @@ class ProjectPage extends Component {
                     cover={<img alt="portfolio-website" src={require('../resources/portfolio.jpg')} height="250"/>}
                     >
                         <Meta title="Personal Website" 
-                        description="This is a website I created using React to display all of my experiences and achievements thus far." 
+                        description={this.state.projects.website} 
                         />
                         <center><br/><a href="https://github.com/deepbajwaa/SimrandeepBajwaPortfolio" target="_blank" rel="noopener noreferrer">Link to this project</a></center>
                     </Card> 
@@ -35,7 +67,7 @@ class ProjectPage extends Component {
                     cover={<img alt="dungeons-and-dragons" src={require('../resources/dragons.jpg')} height="250"/>}
                     >
                         <Meta title="Dungeons and Dragons GUI" 
-                        description="For this project, I took the famous game of Dungeons and Dragons and recreated it using Java, and JavaFx." 
+                        description={this.state.projects.dragons} 
                         />
                         <center><br/><a href="https://github.com/deepbajwaa/DungeonsAndDragonsGUI" target="_blank" rel="noopener noreferrer">Link to this project</a></center>
                     </Card> 
@@ -47,8 +79,7 @@ class ProjectPage extends Component {
                     cover={<img alt="amazon" src={require('../resources/amazon.jpg')} height="250"/>}
                     >
                         <Meta title="Amazon Price Checker" 
-                        description="In my efforts to learn Python I created a script that would monitor the price of a television on Amazon.ca. This script would send you
-                                    an email if the television dropped below a certain price." 
+                        description={this.state.projects.amazon} 
                         />
                         <center><br/><a href="https://github.com/deepbajwaa/AmazonPriceChecker" target="_blank" rel="noopener noreferrer">Link to this project</a></center>
                     </Card> 
@@ -62,8 +93,7 @@ class ProjectPage extends Component {
                     cover={<img alt="transportation" src={require('../resources/transportation.jpg')} height="250"/>}
                     >
                         <Meta title="Transportation Calculator" 
-                        description="This was a program I wrote in Java to allow a user to determine the best mode of transportation depending on how far the user was 
-                                    travelling." 
+                        description={this.state.projects.transportation} 
                         />
                         <center><br/><a href="https://github.com/deepbajwaa/TransportationCalculator" target="_blank" rel="noopener noreferrer">Link to this project</a></center>
                     </Card> 
@@ -75,8 +105,7 @@ class ProjectPage extends Component {
                     cover={<img alt="tech" src={require('../resources/tech.jpg')} height="250"/>}
                     >
                         <Meta title="Doubly-Linked-List Library" 
-                        description="I was motivated to create this library to my lack of knowledge of doubly-linked-lists. Creating a libary for this in C would force me to
-                                    dwell deeper into this data structure." 
+                        description={this.state.projects.linkedList}  
                         />
                         <center><br/><a href="https://github.com/deepbajwaa/DoublyLinkedListImplementation" target="_blank" rel="noopener noreferrer">Link to this project</a></center>
                     </Card> 
@@ -88,7 +117,7 @@ class ProjectPage extends Component {
                     cover={<img alt="tic-tac-toe" src={require('../resources/tictactoe.png')} height="250"/>}
                     >
                         <Meta title="Tic-Tac-Toe" 
-                        description="This was a school project where we created an AI to play against a user in a game of tic-tac-toe." 
+                        description={this.state.projects.tictactoe} 
                         />
                         <center><br/><a href="https://github.com/deepbajwaa/TicTacToe" target="_blank" rel="noopener noreferrer">Link to this project</a></center>
                     </Card> 

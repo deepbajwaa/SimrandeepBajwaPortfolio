@@ -58,7 +58,7 @@ class App extends Component {
                 <Route path="/SimrandeepBajwaPortfolio" exact component={HomePage}/>
                 <Route path="/SimrandeepBajwaPortfolio/about" component={AboutPage}/>
                 <Route path="/SimrandeepBajwaPortfolio/resume" component={ResumePage}/>
-                <Route path="/SimrandeepBajwaPortfolio/caseware" component={CasewarePage}/>
+                {/* <Route path="/SimrandeepBajwaPortfolio/caseware" component={CasewarePage}/> */}
                 <Route path="/SimrandeepBajwaPortfolio/projects" component={ProjectPage}/>
                 <Route path="/SimrandeepBajwaPortfolio/awards" component={AwardPage}/>
               </Content>

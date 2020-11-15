@@ -1,10 +1,35 @@
 import React, { Component } from 'react';
 import { Card, Typography, Image } from 'antd';
 import './styles/HomePage.css';
+import firebase from 'firebase';
 
 const { Paragraph } = Typography;
 
 class HomePage extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            homepageBio: ''
+        };
+    }
+
+    componentDidMount() {
+        const rootRef = firebase.database().ref();
+        if (rootRef) {
+            const homeRef = rootRef.child('homepage');
+            if (homeRef) {
+                homeRef.on('value', snap => {
+                    if (snap) {
+                        this.setState({
+                            homepageBio: snap.val()
+                        });   
+                    }
+                });
+            } 
+        }
+    }
+
     render() {
         return (
             <div>
@@ -13,20 +38,10 @@ class HomePage extends Component {
                         <Image width={300} src={require('../resources/profile.jpg')}/>
                     </center>
                 </div>
-                <center classname="container">
-                    <br/><h1 className="type-animation">Hello, My Name Is Simrandeep!</h1>
+                <center>
+                    <br/><h1 className="type-animation">Hello, My Name is Simrandeep!</h1>
                     <Card className="biography" title="Bio">
-                        <Paragraph>
-                            Welcome to my website! I am a third-year student at the University of Guelph with a growing passion to learn more 
-                            about software development. I have previously worked at CaseWare as a software developer on an 8-month work-term. 
-                            You can learn more about this experience through my CaseWare work-term report. I am very familiar with the Agile 
-                            methodology and Agile frameworks such as Scrum, which I used on a daily basis at CaseWare. Moreover, I am familiar 
-                            with web frameworks including Angular, AngularJS, and React. I also have experience with technologies and languages 
-                            including Git, C, Java, JavaScript, TypeScript, HTML, CSS, LESS, SCSS and Python. This is only the beginning of my 
-                            software development career. I am very devoted to continuous learning to further diversify and build my skill set. 
-                            One of my main goals as a programmer is to build meaningful software that can make others lives easier or more convenient. 
-                            Feel free to check out the rest of my website to learn more about me. 
-                        </Paragraph>
+                        <Paragraph>{this.state.homepageBio}</Paragraph>
                     </Card>
                 </center>
             </div>
