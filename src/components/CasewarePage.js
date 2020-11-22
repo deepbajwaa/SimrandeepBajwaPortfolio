@@ -13,7 +13,8 @@ class CasewarePage extends Component {
             caseware: {
                 intro: '',
                 casewareDesc: '',
-                goals: '',
+                goalsS20: '',
+                goalsF20: '',
                 workOne: '',
                 workTwo: '',
                 workThree: '',
@@ -68,11 +69,11 @@ class CasewarePage extends Component {
                     <Image className="picture-format"  width={400} src={require('../resources/caseware.jpg')}/>
                 </div>
 
-                <br/><br/><Title level={2}>Goals</Title>
+                <br/><br/><Title level={2}>Goals (Summer 2020)</Title>
                 <Paragraph> 
                     In order to make this experience educational and advantageous for myself, I established the following goals:
                     <span className="tab">
-                        <br/><br/>1. To learn about the Agile methodology, and applying it to a real workplace environment
+                        <br/><br/>1. To learn about the Agile methodology, and applying it to a real workplace environment.
                         <br/>2. Increase my knowledge of web development (specifically the Angular framework), to complement my knowledge of backend development.
                         <br/>3. Writing clean and well thought out efficient code that can be reused in the future.
                         <br/>4. Be able to create a minor feature that is introduced to the software, or be able to make bug fixes independently.
@@ -81,7 +82,22 @@ class CasewarePage extends Component {
                 </Paragraph>
                 <div className="text-container">
                     <Image className="picture-format"  width={400} src={require('../resources/goals.jpg')} />
-                    <span className="paragraph-format">{this.state.caseware.goals}</span>
+                    <span className="paragraph-format">{this.state.caseware.goalsS20}</span>
+                </div>
+
+                <br/><br/><Title level={2}>Goals (Fall 2020)</Title>
+                <Paragraph> 
+                    These were the new set of goals I established for the Fall 2020 work-term:
+                    <span className="tab">
+                        <br/><br/>1. To be able to create efficient unit tests that provide excellent coverage, and are easy to understand.
+                        <br/>2. Develop a stronger understanding of the core features that my team works on to contribute more to Agile ceremonies.
+                        <br/>3. Continue to develop stronger self-regulation skills to be more productive and to complete assigned tasks on time.
+                        <br/>4. Develop stronger teamwork skills by working closely on programming and design tasks with one or more peers.
+                    </span>
+                </Paragraph>
+                <div className="text-container">
+                    <span className="paragraph-format">{this.state.caseware.goalsF20}</span>
+                    <Image className="picture-format"  width={400} src={require('../resources/growth.png')} />
                 </div>
 
                 <br/><br/><Title level={2}>What did I do?</Title>

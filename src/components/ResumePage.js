@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Typography } from 'antd';
-import './styles/ResumePage.css'
+import './styles/ResumePage.css';
 
 const { Title, Text } = Typography;
 
