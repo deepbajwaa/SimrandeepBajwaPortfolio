@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/SimrandeepBajwaPortfolio/static/css/main.ffe0ee21.chunk.css",
-    "main.js": "/SimrandeepBajwaPortfolio/static/js/main.3b563bf5.chunk.js",
-    "main.js.map": "/SimrandeepBajwaPortfolio/static/js/main.3b563bf5.chunk.js.map",
+    "main.js": "/SimrandeepBajwaPortfolio/static/js/main.3b0ca37d.chunk.js",
+    "main.js.map": "/SimrandeepBajwaPortfolio/static/js/main.3b0ca37d.chunk.js.map",
     "runtime-main.js": "/SimrandeepBajwaPortfolio/static/js/runtime-main.9a4a540f.js",
     "runtime-main.js.map": "/SimrandeepBajwaPortfolio/static/js/runtime-main.9a4a540f.js.map",
     "static/css/2.220ccb42.chunk.css": "/SimrandeepBajwaPortfolio/static/css/2.220ccb42.chunk.css",
     "static/js/2.88a3fcf3.chunk.js": "/SimrandeepBajwaPortfolio/static/js/2.88a3fcf3.chunk.js",
     "static/js/2.88a3fcf3.chunk.js.map": "/SimrandeepBajwaPortfolio/static/js/2.88a3fcf3.chunk.js.map",
     "index.html": "/SimrandeepBajwaPortfolio/index.html",
-    "precache-manifest.09e3d037230422336664e71eb7020612.js": "/SimrandeepBajwaPortfolio/precache-manifest.09e3d037230422336664e71eb7020612.js",
+    "precache-manifest.1d37cffb6650206800972909f57aaf7e.js": "/SimrandeepBajwaPortfolio/precache-manifest.1d37cffb6650206800972909f57aaf7e.js",
     "service-worker.js": "/SimrandeepBajwaPortfolio/service-worker.js",
     "static/css/2.220ccb42.chunk.css.map": "/SimrandeepBajwaPortfolio/static/css/2.220ccb42.chunk.css.map",
     "static/css/main.ffe0ee21.chunk.css.map": "/SimrandeepBajwaPortfolio/static/css/main.ffe0ee21.chunk.css.map",
     "static/js/2.88a3fcf3.chunk.js.LICENSE.txt": "/SimrandeepBajwaPortfolio/static/js/2.88a3fcf3.chunk.js.LICENSE.txt",
     "static/media/2014ForestHillsDrive.jpg": "/SimrandeepBajwaPortfolio/static/media/2014ForestHillsDrive.7d4c425a.jpg",
-    "static/media/Simrandeep Bajwa - Resume.pdf": "/SimrandeepBajwaPortfolio/static/media/Simrandeep Bajwa - Resume.a552e81c.pdf",
+    "static/media/Simrandeep Bajwa - Resume.pdf": "/SimrandeepBajwaPortfolio/static/media/Simrandeep Bajwa - Resume.2954b326.pdf",
     "static/media/academic.png": "/SimrandeepBajwaPortfolio/static/media/academic.c3ac9374.png",
     "static/media/amazon.jpg": "/SimrandeepBajwaPortfolio/static/media/amazon.14dd758a.jpg",
     "static/media/angular.png": "/SimrandeepBajwaPortfolio/static/media/angular.1dc2c0ff.png",
@@ -40,6 +40,6 @@
     "static/css/2.220ccb42.chunk.css",
     "static/js/2.88a3fcf3.chunk.js",
     "static/css/main.ffe0ee21.chunk.css",
-    "static/js/main.3b563bf5.chunk.js"
+    "static/js/main.3b0ca37d.chunk.js"
   ]
 }
