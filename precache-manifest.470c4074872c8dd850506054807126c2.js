@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9ee849637a4c5aac934622547e0b0d52",
+    "revision": "abaa9930ee17959e99232a3b02565cfa",
     "url": "/SimrandeepBajwaPortfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SimrandeepBajwaPortfolio/static/css/2.220ccb42.chunk.css"
   },
   {
-    "revision": "0dc0f6f84b8ab0f56a37",
+    "revision": "83647c2d97f75593f0d7",
     "url": "/SimrandeepBajwaPortfolio/static/css/main.ffe0ee21.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SimrandeepBajwaPortfolio/static/js/2.88a3fcf3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0dc0f6f84b8ab0f56a37",
-    "url": "/SimrandeepBajwaPortfolio/static/js/main.3b0ca37d.chunk.js"
+    "revision": "83647c2d97f75593f0d7",
+    "url": "/SimrandeepBajwaPortfolio/static/js/main.a23b7e9e.chunk.js"
   },
   {
     "revision": "792e4a7634855a51ec22",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SimrandeepBajwaPortfolio/static/media/2014ForestHillsDrive.7d4c425a.jpg"
   },
   {
-    "revision": "2954b326d7667355576229edbabd55a7",
-    "url": "/SimrandeepBajwaPortfolio/static/media/Simrandeep Bajwa - Resume.2954b326.pdf"
+    "revision": "8e99b7809f8f302c2ba662b78bf1786f",
+    "url": "/SimrandeepBajwaPortfolio/static/media/Simrandeep Bajwa - Resume.8e99b780.pdf"
   },
   {
     "revision": "c3ac937470cc90385844e2c3f088ca5e",
