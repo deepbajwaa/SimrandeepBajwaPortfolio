@@ -8,6 +8,7 @@ import {
     FileTextOutlined,
     DesktopOutlined,
     AuditOutlined,
+    BookOutlined,
     CodeOutlined,
     NotificationOutlined,
   } from '@ant-design/icons';
@@ -36,8 +37,12 @@ class NavMenu extends Component {
               </Menu.Item>
               <SubMenu icon={<DesktopOutlined />} title="Work-Terms">
                   <Menu.Item icon={<AuditOutlined />}>
-                    CaseWare
-                    <Link to="/SimrandeepBajwaPortfolio/caseware"/>
+                    CaseWare S20-F20
+                    <Link to="/SimrandeepBajwaPortfolio/casewareS20"/>
+                  </Menu.Item>
+                  <Menu.Item icon={<BookOutlined />}>
+                    CaseWare S21
+                    <Link to="/SimrandeepBajwaPortfolio/casewareS21"/>
                   </Menu.Item>
               </SubMenu>
               <Menu.Item icon={<CodeOutlined />}>

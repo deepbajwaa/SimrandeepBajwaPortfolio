@@ -5,7 +5,7 @@ import firebase from 'firebase';
 
 const { Title, Paragraph } = Typography;
 
-class CasewarePage extends Component {
+class CasewarePageS20 extends Component {
 
     constructor(props) {
         super(props);
@@ -120,7 +120,7 @@ class CasewarePage extends Component {
                     <span className="paragraph-format">{this.state.caseware.webDev}</span>
                 </div>
 
-                <br/><br/><Title level={4}>Software development in a professional environment</Title>
+                <br/><br/><Title level={4}>Software Development in a Professional Environment</Title>
                 <Paragraph>{this.state.caseware.proEnv}</Paragraph>
 
                 <Title level={4}>Team Management (Agile)</Title>
@@ -143,4 +143,4 @@ class CasewarePage extends Component {
     }
 }
 
-export default CasewarePage;
+export default CasewarePageS20;

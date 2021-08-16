@@ -4,7 +4,8 @@ import HomePage from './components/HomePage';
 import OtherLinks from './components/OtherLinks';
 import AboutPage from './components/AboutPage';
 import ResumePage from './components/ResumePage';
-import CasewarePage from './components/CasewarePage';
+import CasewarePageS20 from './components/CasewarePageS20';
+import CasewarePageS21 from './components/CasewarePageS21';
 import ProjectPage from './components/ProjectPage';
 import AwardPage from './components/AwardPage';
 import { Layout, Avatar  } from 'antd';
@@ -58,7 +59,8 @@ class App extends Component {
                 <Route path="/SimrandeepBajwaPortfolio" exact component={HomePage}/>
                 <Route path="/SimrandeepBajwaPortfolio/about" component={AboutPage}/>
                 <Route path="/SimrandeepBajwaPortfolio/resume" component={ResumePage}/>
-                <Route path="/SimrandeepBajwaPortfolio/caseware" component={CasewarePage}/>
+                <Route path="/SimrandeepBajwaPortfolio/casewareS20" component={CasewarePageS20}/>
+                <Route path="/SimrandeepBajwaPortfolio/casewareS21" component={CasewarePageS21}/>
                 <Route path="/SimrandeepBajwaPortfolio/projects" component={ProjectPage}/>
                 <Route path="/SimrandeepBajwaPortfolio/awards" component={AwardPage}/>
               </Content>
