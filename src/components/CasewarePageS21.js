@@ -51,6 +51,7 @@ class CasewarePageS21 extends Component {
 
                 <br/><br/><Title level={2}>Introduction</Title>
                 <div className="text-container">
+                    <Image className="picture-format"  width={400} src={require('../resources/casewareS21/setup.jpeg')}/>
                     <span className="paragraph-format">{this.state.casewareS21.intro}</span>
                 </div>
 
@@ -69,6 +70,7 @@ class CasewarePageS21 extends Component {
                     </span>
                 </Paragraph>
                 <div className="text-container">
+                    <Image className="picture-format"  width={400} src={require('../resources/casewareS21/goals.png')}/>
                     <span className="paragraph-format">{this.state.casewareS21.goalsS21}</span>
                 </div>
 
@@ -85,12 +87,14 @@ class CasewarePageS21 extends Component {
                 <br/><br/><Title level={2}>What did I learn?</Title>
                 <Title level={4}>Building Features</Title>
                 <div className="text-container">
+                    {/* <Image className="picture-format"  width={400} src={require('../resources/casewareS21/features.jpg')} /> */}
                     <span className="paragraph-format">{this.state.casewareS21.features}</span>
                 </div>
 
                 <Title level={4}>On-call</Title>
                 <div className="text-container">
-                    <span className="paragraph-format">{this.state.casewareS21.oncall}</span>
+                    <span className="paragraph-format-right">{this.state.casewareS21.oncall}</span>
+                    {/* <Image className="picture-format"  width={400} src={require('../resources/casewareS21/oncall.png')}/> */}
                 </div>
 
                 <br/><br/><Title level={2}>Conclusion</Title>

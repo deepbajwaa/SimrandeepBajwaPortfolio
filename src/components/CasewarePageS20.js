@@ -10,7 +10,7 @@ class CasewarePageS20 extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            caseware: {
+            casewareS20: {
                 intro: '',
                 casewareDesc: '',
                 goalsS20: '',
