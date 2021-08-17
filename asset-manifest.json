@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/SimrandeepBajwaPortfolio/static/css/main.ffe0ee21.chunk.css",
-    "main.js": "/SimrandeepBajwaPortfolio/static/js/main.a23b7e9e.chunk.js",
-    "main.js.map": "/SimrandeepBajwaPortfolio/static/js/main.a23b7e9e.chunk.js.map",
+    "main.js": "/SimrandeepBajwaPortfolio/static/js/main.e3874fcf.chunk.js",
+    "main.js.map": "/SimrandeepBajwaPortfolio/static/js/main.e3874fcf.chunk.js.map",
     "runtime-main.js": "/SimrandeepBajwaPortfolio/static/js/runtime-main.9a4a540f.js",
     "runtime-main.js.map": "/SimrandeepBajwaPortfolio/static/js/runtime-main.9a4a540f.js.map",
     "static/css/2.220ccb42.chunk.css": "/SimrandeepBajwaPortfolio/static/css/2.220ccb42.chunk.css",
-    "static/js/2.88a3fcf3.chunk.js": "/SimrandeepBajwaPortfolio/static/js/2.88a3fcf3.chunk.js",
-    "static/js/2.88a3fcf3.chunk.js.map": "/SimrandeepBajwaPortfolio/static/js/2.88a3fcf3.chunk.js.map",
+    "static/js/2.420c94cd.chunk.js": "/SimrandeepBajwaPortfolio/static/js/2.420c94cd.chunk.js",
+    "static/js/2.420c94cd.chunk.js.map": "/SimrandeepBajwaPortfolio/static/js/2.420c94cd.chunk.js.map",
     "index.html": "/SimrandeepBajwaPortfolio/index.html",
-    "precache-manifest.470c4074872c8dd850506054807126c2.js": "/SimrandeepBajwaPortfolio/precache-manifest.470c4074872c8dd850506054807126c2.js",
+    "precache-manifest.564eae6525ff08292655e117251d4ec6.js": "/SimrandeepBajwaPortfolio/precache-manifest.564eae6525ff08292655e117251d4ec6.js",
     "service-worker.js": "/SimrandeepBajwaPortfolio/service-worker.js",
     "static/css/2.220ccb42.chunk.css.map": "/SimrandeepBajwaPortfolio/static/css/2.220ccb42.chunk.css.map",
     "static/css/main.ffe0ee21.chunk.css.map": "/SimrandeepBajwaPortfolio/static/css/main.ffe0ee21.chunk.css.map",
-    "static/js/2.88a3fcf3.chunk.js.LICENSE.txt": "/SimrandeepBajwaPortfolio/static/js/2.88a3fcf3.chunk.js.LICENSE.txt",
+    "static/js/2.420c94cd.chunk.js.LICENSE.txt": "/SimrandeepBajwaPortfolio/static/js/2.420c94cd.chunk.js.LICENSE.txt",
     "static/media/2014ForestHillsDrive.jpg": "/SimrandeepBajwaPortfolio/static/media/2014ForestHillsDrive.7d4c425a.jpg",
     "static/media/Simrandeep Bajwa - Resume.pdf": "/SimrandeepBajwaPortfolio/static/media/Simrandeep Bajwa - Resume.8e99b780.pdf",
     "static/media/academic.png": "/SimrandeepBajwaPortfolio/static/media/academic.c3ac9374.png",
@@ -21,12 +21,15 @@
     "static/media/angular.png": "/SimrandeepBajwaPortfolio/static/media/angular.1dc2c0ff.png",
     "static/media/caseware.jpg": "/SimrandeepBajwaPortfolio/static/media/caseware.be090dcc.jpg",
     "static/media/dragons.jpg": "/SimrandeepBajwaPortfolio/static/media/dragons.820e9d35.jpg",
+    "static/media/features.png": "/SimrandeepBajwaPortfolio/static/media/features.cfd172d6.png",
+    "static/media/goals.png": "/SimrandeepBajwaPortfolio/static/media/goals.830a846f.png",
     "static/media/goals.jpg": "/SimrandeepBajwaPortfolio/static/media/goals.f1ecf2e3.jpg",
     "static/media/growth.png": "/SimrandeepBajwaPortfolio/static/media/growth.40db633b.png",
     "static/media/jordan4.jpeg": "/SimrandeepBajwaPortfolio/static/media/jordan4.a5ab3349.jpeg",
     "static/media/jordan5.jpeg": "/SimrandeepBajwaPortfolio/static/media/jordan5.81d6808d.jpeg",
     "static/media/kissland.png": "/SimrandeepBajwaPortfolio/static/media/kissland.282aef5b.png",
     "static/media/lowry.jpg": "/SimrandeepBajwaPortfolio/static/media/lowry.ab7d8d34.jpg",
+    "static/media/oncall.png": "/SimrandeepBajwaPortfolio/static/media/oncall.7ba07d10.png",
     "static/media/portfolio.jpg": "/SimrandeepBajwaPortfolio/static/media/portfolio.356e4786.jpg",
     "static/media/profile.jpg": "/SimrandeepBajwaPortfolio/static/media/profile.c6a3f07a.jpg",
     "static/media/raptors.jpg": "/SimrandeepBajwaPortfolio/static/media/raptors.e8b96641.jpg",
@@ -38,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.9a4a540f.js",
     "static/css/2.220ccb42.chunk.css",
-    "static/js/2.88a3fcf3.chunk.js",
+    "static/js/2.420c94cd.chunk.js",
     "static/css/main.ffe0ee21.chunk.css",
-    "static/js/main.a23b7e9e.chunk.js"
+    "static/js/main.e3874fcf.chunk.js"
   ]
 }
