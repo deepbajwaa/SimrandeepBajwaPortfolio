@@ -60,7 +60,7 @@ class CasewarePageS21 extends Component {
                     (Please reference my CaseWare S20-F20 report under Work-Terms)
                 </Paragraph>
 
-                <br/><br/><Title level={2}>Goals (Summer 2021)</Title>
+                <br/><Title level={2}>Goals (Summer 2021)</Title>
                 <Paragraph> 
                     In order to make this experience educational and advantageous for myself, I established the following goals:
                     <span className="tab">
@@ -79,28 +79,28 @@ class CasewarePageS21 extends Component {
                 <Paragraph>{this.state.casewareS21.workTwo}</Paragraph>
                 <Paragraph>{this.state.casewareS21.workThree}</Paragraph>
 
-                <br/><br/><Title level={2}>How did this job relate to my academic studies?</Title>
+                <br/><Title level={2}>How did this job relate to my academic studies?</Title>
                 <Paragraph>
                     (Please reference my CaseWare S20-F20 report under Work-Terms)
                 </Paragraph>
 
-                <br/><br/><Title level={2}>What did I learn?</Title>
+                <br/><Title level={2}>What did I learn?</Title>
                 <Title level={4}>Building Features</Title>
                 <div className="text-container">
-                    {/* <Image className="picture-format"  width={400} src={require('../resources/casewareS21/features.jpg')} /> */}
+                    <Image className="picture-format"  width={400} src={require('../resources/casewareS21/features.png')} />
                     <span className="paragraph-format">{this.state.casewareS21.features}</span>
                 </div>
 
-                <Title level={4}>On-call</Title>
+                <br/><br/><Title level={4}>On-call</Title>
                 <div className="text-container">
-                    <span className="paragraph-format-right">{this.state.casewareS21.oncall}</span>
-                    {/* <Image className="picture-format"  width={400} src={require('../resources/casewareS21/oncall.png')}/> */}
+                    <span className="paragraph-format">{this.state.casewareS21.oncall}</span>
+                    <Image className="picture-format"  width={400} src={require('../resources/casewareS21/oncall.png')}/>
                 </div>
 
                 <br/><br/><Title level={2}>Conclusion</Title>
                 <Paragraph>{this.state.casewareS21.conclusion}</Paragraph>
 
-                <br/><br/><Title level={2}>Acknowledgements</Title>
+                <Title level={2}>Acknowledgements</Title>
                 <Paragraph>{this.state.casewareS21.ackOne}</Paragraph>
                 <Paragraph>{this.state.casewareS21.ackTwo}</Paragraph>
                 <Paragraph>{this.state.casewareS21.ackThree}</Paragraph>

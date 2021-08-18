@@ -42,7 +42,7 @@ class CasewarePageS20 extends Component {
                 casewareRef.on('value', snap => {
                     if (snap) {
                         this.setState({
-                            caseware: snap.val()
+                            casewareS20: snap.val()
                         });   
                     }
                 });
@@ -60,12 +60,12 @@ class CasewarePageS20 extends Component {
                 <br/><br/><Title level={2}>Introduction</Title>
                 <div className="text-container">
                     <Image className="picture-format"  width={400} src={require('../resources/setup.jpeg')}/>
-                    <span className="paragraph-format">{this.state.caseware.intro}</span>
+                    <span className="paragraph-format">{this.state.casewareS20.intro}</span>
                 </div>
 
                 <br/><br/><Title level={2}>What does CaseWare do?</Title>
                 <div className="text-container">
-                    <span className="paragraph-format-right">{this.state.caseware.casewareDesc}</span>
+                    <span className="paragraph-format-right">{this.state.casewareS20.casewareDesc}</span>
                     <Image className="picture-format"  width={400} src={require('../resources/caseware.jpg')}/>
                 </div>
 
@@ -82,7 +82,7 @@ class CasewarePageS20 extends Component {
                 </Paragraph>
                 <div className="text-container">
                     <Image className="picture-format"  width={400} src={require('../resources/goals.jpg')} />
-                    <span className="paragraph-format">{this.state.caseware.goalsS20}</span>
+                    <span className="paragraph-format">{this.state.casewareS20.goalsS20}</span>
                 </div>
 
                 <br/><br/><Title level={2}>Goals (Fall 2020)</Title>
@@ -96,20 +96,20 @@ class CasewarePageS20 extends Component {
                     </span>
                 </Paragraph>
                 <div className="text-container">
-                    <span className="paragraph-format">{this.state.caseware.goalsF20}</span>
+                    <span className="paragraph-format">{this.state.casewareS20.goalsF20}</span>
                     <Image className="picture-format"  width={400} src={require('../resources/growth.png')} />
                 </div>
 
                 <br/><br/><Title level={2}>What did I do?</Title>
-                <Paragraph>{this.state.caseware.workOne}</Paragraph>
-                <Paragraph>{this.state.caseware.workTwo}</Paragraph>
-                <Paragraph>{this.state.caseware.workThree}</Paragraph>
+                <Paragraph>{this.state.casewareS20.workOne}</Paragraph>
+                <Paragraph>{this.state.casewareS20.workTwo}</Paragraph>
+                <Paragraph>{this.state.casewareS20.workThree}</Paragraph>
 
                 <br/><br/><Title level={2}>How did this job relate to my academic studies?</Title>
-                <Paragraph>{this.state.caseware.academicOne}</Paragraph>
-                <Paragraph>{this.state.caseware.academicTwo}</Paragraph>
+                <Paragraph>{this.state.casewareS20.academicOne}</Paragraph>
+                <Paragraph>{this.state.casewareS20.academicTwo}</Paragraph>
                 <div className="text-container">
-                    <span className="paragraph-format-right">{this.state.caseware.academicThree}</span>
+                    <span className="paragraph-format-right">{this.state.casewareS20.academicThree}</span>
                     <Image className="picture-format"  width={400} src={require('../resources/academic.png')}/>
                 </div>
 
@@ -117,27 +117,27 @@ class CasewarePageS20 extends Component {
                 <Title level={4}>Web Development</Title>
                 <div className="text-container">
                     <Image className="picture-format"  width={400} src={require('../resources/angular.png')} />
-                    <span className="paragraph-format">{this.state.caseware.webDev}</span>
+                    <span className="paragraph-format">{this.state.casewareS20.webDev}</span>
                 </div>
 
                 <br/><br/><Title level={4}>Software Development in a Professional Environment</Title>
-                <Paragraph>{this.state.caseware.proEnv}</Paragraph>
+                <Paragraph>{this.state.casewareS20.proEnv}</Paragraph>
 
                 <Title level={4}>Team Management (Agile)</Title>
                 <div className="text-container">
-                    <span className="paragraph-format-right">{this.state.caseware.agile}</span>
+                    <span className="paragraph-format-right">{this.state.casewareS20.agile}</span>
                     <Image className="picture-format"  width={400} src={require('../resources/agile.png')}/>
                 </div>
 
                 <br/><br/><Title level={2}>Conclusion</Title>
-                <Paragraph>{this.state.caseware.conclusionPt1}</Paragraph>
-                <Paragraph>{this.state.caseware.conclusionPt2}</Paragraph>
+                <Paragraph>{this.state.casewareS20.conclusionPt1}</Paragraph>
+                <Paragraph>{this.state.casewareS20.conclusionPt2}</Paragraph>
 
                 <br/><br/><Title level={2}>Acknowledgements</Title>
-                <Paragraph>{this.state.caseware.ackOne}</Paragraph>
-                <Paragraph>{this.state.caseware.ackTwo}</Paragraph>
-                <Paragraph>{this.state.caseware.ackThree}</Paragraph>
-                <Paragraph>{this.state.caseware.ackFour}</Paragraph>
+                <Paragraph>{this.state.casewareS20.ackOne}</Paragraph>
+                <Paragraph>{this.state.casewareS20.ackTwo}</Paragraph>
+                <Paragraph>{this.state.casewareS20.ackThree}</Paragraph>
+                <Paragraph>{this.state.casewareS20.ackFour}</Paragraph>
             </Typography>
         );
     }
